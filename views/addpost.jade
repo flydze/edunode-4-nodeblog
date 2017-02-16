@@ -27,3 +27,7 @@ block content
         option(value='Valentyn Zozulia') Valentyn Zozulia
         option(value='Guest') Guest
     input.btn.btn-default(name='submit', type='submit', value='Save')
+
+    script(src='/ckeditor/ckeditor.js')
+    script
+      | CKEDITOR.replace('body')
